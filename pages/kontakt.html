@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/logo.png" />
+    <title>Свържете се с нас</title>
+    <link rel="stylesheet" href="../css/topbar.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <section class="topbar">
+        <a href="../index.html" class="topbar-logo-button">
+          <img class="topbar-logo" src="../images/logo.png" alt="Logo Image" />
+          <span class="topbar-logo-button-text">Starlight Journeys</span>
+        </a>
+        <ul class="topbar-buttons">
+          <li class="topbar-buttons-item">
+            <a href="programi.html" class="topbar-button">Програми</a>
+          </li>
+          <li class="topbar-buttons-item">
+            <a href="destinacii.html" class="topbar-button">Дестинации</a>
+          </li>
+          <li class="topbar-buttons-item">
+            <a href="oferti.html" class="topbar-button">Оферти</a>
+          </li>
+          <li class="topbar-buttons-item">
+            <a href="#" class="topbar-button">Свържете се с нас</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+
+    <main>
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/pewpotfan@gmail.com"
+        method="POST"
+      >
+        <div class="contact-form-wrapper">
+          <h2 class="contact-form-heading">Контактна Форма</h2>
+          <label class="contact-form-label" for="name">Име</label>
+          <input
+            type="text"
+            class="contact-form-field"
+            id="name"
+            name="name"
+            placeholder="Вашето име..."
+            required
+          />
+
+          <label class="contact-form-label" for="email">Емайл</label>
+          <input
+            type="email"
+            class="contact-form-field"
+            id="email"
+            name="email"
+            placeholder="Вашият емайл..."
+            required
+          />
+
+          <label class="contact-form-label" for="phone-number">Телефон</label>
+          <input
+            type="tel"
+            class="contact-form-field"
+            id="phone-number"
+            name="phone-number"
+            placeholder="Вашият телефонен номер..."
+            required
+          />
+
+          <label class="contact-form-label" for="message">Съобщение</label>
+          <textarea
+            name="message"
+            id="message"
+            class="contact-form-message"
+            cols="30"
+            rows="10"
+            placeholder="Вашето съобщение..."
+            required
+          ></textarea>
+
+          <input class="contact-form-button" type="submit" value="Изпращане" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

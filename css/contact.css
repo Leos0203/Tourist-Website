@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 1.6rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Контактна фомра */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  cursor: auto;
+  margin-top: 30px;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(226, 226, 226);
+  padding: 40px;
+  border-radius: 5%;
+}
+
+.contact-form-heading {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.contact-form-label {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.contact-form-field {
+  display: inline-block;
+  margin-left: 2px;
+  border: 0.01rem solid gray;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  padding: 5px;
+  outline: none;
+}
+
+.contact-form-message {
+  display: inline-block;
+  margin-left: 2px;
+  border: 0.01rem solid gray;
+  border-radius: 10%;
+  outline: none;
+  padding: 10px;
+}
+
+.contact-form-button {
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  padding: 10px;
+  background-color: rgb(1, 229, 245);
+  cursor: pointer;
+}
+
+.contact-form-button:hover {
+  background-color: rgb(0, 238, 255);
+}

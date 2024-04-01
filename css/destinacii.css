@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 1.6rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  color: black;
+  margin: 20px 0;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(219, 219, 219);
+  border: none;
+  border-radius: 10%;
+  width: 60vw;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.destination-heading {
+  display: flex;
+  font-weight: bold;
+  font-size: 7rem;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+.destination-image {
+  display: flex;
+  width: 50vw;
+  box-shadow: 2px 2px 10px;
+  border-radius: 3%;
+}
+
+.destination-text {
+  display: flex;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.destination-subheading {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.destination-types {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.destination-type {
+  display: inline-block;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: 0 10px;
+}
+
+.destination-type-image {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 2px 8px;
+  border-radius: 3%;
+}
+
+.destination-type-heading {
+  display: inline-block;
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.destination-type-text {
+  display: inline-block;
+  color: black;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 5px;
+}

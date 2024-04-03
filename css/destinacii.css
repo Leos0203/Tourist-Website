@@ -28,6 +28,12 @@ main {
   align-items: center;
 }
 
+#destinacii-button {
+  color: rgb(74, 183, 255);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .title {
   display: inline-block;
   color: black;
@@ -58,6 +64,7 @@ main {
   width: 60vw;
   padding: 50px;
   padding-top: 20px;
+  margin-top: 50px;
 }
 
 .destination-heading {
@@ -90,6 +97,8 @@ main {
   font-size: 5rem;
   margin-bottom: 30px;
   margin-top: 20px;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
 }
 
 .destination-types {

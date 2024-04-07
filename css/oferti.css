@@ -18,3 +18,85 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+#oferti-button {
+  color: rgb(74, 183, 255);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-gap: 20px;
+  list-style: none;
+  align-items: center;
+  background-color: rgb(219, 219, 219);
+  border: none;
+  border-radius: 1%;
+  padding: 20px;
+}
+
+.offer {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  background-color: rgb(187, 187, 187);
+  border-radius: 5%;
+  width: 350px;
+  margin: 0 30px;
+}
+
+.offer-image {
+  display: flex;
+  border: none;
+  border-radius: 3%;
+  box-shadow: 2px 2px 10px;
+  margin: 10px 0;
+  height: 200px;
+  width: 300px;
+}
+
+.offer-title {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.offer-prices {
+  display: flex;
+}
+
+.offer-old-price {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-left: 3px;
+  text-decoration: line-through;
+  margin-right: 3px;
+}
+
+.offer-price {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-left: 3px;
+}

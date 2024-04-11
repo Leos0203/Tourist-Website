@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
 :root {
   font-size: 62.5%;
 }
@@ -17,4 +19,73 @@ html {
 body {
   display: flex;
   flex-direction: column;
+}
+
+#programi-button {
+  color: rgb(74, 183, 255);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  border: none;
+  border-radius: 1%;
+  padding: 20px;
+}
+
+.program {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(242, 255, 171);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.program-title {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bold;
+  align-self: baseline;
+  margin-left: 20px;
+}
+
+.program-offers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.program-offer {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin: 20px 10px;
+  box-shadow: 2px 2px 10px;
+  border: none;
+  border-radius: 3%;
 }

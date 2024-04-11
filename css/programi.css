@@ -68,8 +68,11 @@ main {
   display: inline-block;
   font-size: 4rem;
   font-weight: bold;
+  color: black;
   align-self: baseline;
   margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .program-offers {

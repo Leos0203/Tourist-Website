@@ -75,6 +75,12 @@ main {
   cursor: pointer;
 }
 
+.program-title:hover {
+  text-decoration: underline;
+  font-size: 4.2rem;
+  transition: 200ms ease-in-out;
+}
+
 .program-offers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
